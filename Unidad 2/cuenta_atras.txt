@@ -1,0 +1,29 @@
+Ejercicio 1:CUENTA ATRÁS
+
+INICIO
+
+    INTENTAR
+        ESCRIBIR "Introduce un número entre 5 y 50: "
+        LEER N
+
+        SI N < 5 O N > 50 ENTONCES
+            ESCRIBIR "Debes introducir un número entre 5 y 50."
+            TERMINAR_PROGRAMA
+        FIN
+
+        PARA i DESDE N HASTA 1 CON PASO -1 HACER
+            ESCRIBIR i
+            ESPERAR 0.5 SEGUNDOS
+        FIN
+
+        ESCRIBIR "TERMINADO"
+
+    CAPTURAR ERROR_DE_TIPO
+        ESCRIBIR "ERROR DEBES INTRODUCIR UN NÚMERO VÁLIDO"
+    FIN
+
+FIN
+
+
+
+
